@@ -7,13 +7,7 @@ This repo is to develop workflows for Nordstrom's usecases described by EPAM her
 Two options:
 1. Run the server locally  [local Temporal Server](https://docs.temporal.io/cli#starting-the-temporal-server)  on localhost:7233.
 
-2. Connect to Temporal Cloud, set the following environment variables, replacing them with your own Temporal Cloud credentials:
 
-```bash
-TEMPORAL_ADDRESS=testnamespace.sdvdw.tmprl.cloud:7233
-TEMPORAL_NAMESPACE=testnamespace.sdvdw
-TEMPORAL_CERT_PATH="/path/to/file.pem"
-TEMPORAL_KEY_PATH="/path/to/file.key"
 ````
 
 ## Workflows
